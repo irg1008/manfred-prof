@@ -1,0 +1,483 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "settings": {
+    "language": "ES",
+    "MACVersion": "0.3"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Iván",
+      "surnames": "Ruiz Gázquez",
+      "title": "Senior Full Stack Dev - Junior ML Engineer",
+      "description": "Soy un ingeniero de software con 4 años de experiencia en entornos profesionales como freelance y como full stack en un equipo multidisciplinar. Me he enfrentado a decenas de tareas diversas desde procesamiento de imágenes, tareas de lenguaje e implementación de ML en aplicaciones comerciales. He podido diseñar y crear aplicaciones web y móvil así como microservicios que se integran entre sí para ofrecer una plataforma compuesta por lo último en tecnología. Me encanta seguir aprendiendo y no entiendo otra cosa que no sea la perfeción (¡O lo más cercano a ella!)",
+      "avatar": {
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/10/30/c3d272d6-bc1d-4a64-bd84-1288f7ec6430_linkedin-photo-46259.linkedin-photo-46259",
+        "alt": "23/10/30/c3d272d6-bc1d-4a64-bd84-1288f7ec6430_linkedin-photo-46259.linkedin-photo-46259"
+      },
+      "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJJwPCPb78RQ0RoRrnuOpbHwo)",
+        "country": "España",
+        "region": "Castilla y León",
+        "municipality": "Burgos"
+      }
+    },
+    "interestingFacts": [
+      {
+        "topic": "Voluntario en MorcillaConf 2022",
+        "fact": "Fuí voluntario en la edición del MorcillaConf 2022. ¡Me llevé una camiseta de Manfred a casa!"
+      },
+      {
+        "topic": "Participación StartUp Weekend Burgos 2022",
+        "fact": "Participé en el Start Up Weekend Burgos en la que presenté junto a un equipo increíble una inteligencía artificial de lenguaje cuyo objetivo era el soporte emocional en niños y niñas pequeños mediante una interfaz basada en un pequeño pato parlante."
+      },
+      {
+        "topic": "Participación Hackaton Mercedes Benz 2022 - Análisis de Datos",
+        "fact": "Participé junto a un equipo multidiciplinar y de forma remota en el hackaton organizado por Mercedes Benz en 2022. A pesar de algunas complicaciones, quedamos 6 de 22 equipos."
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Startalk",
+        "type": "other",
+        "URL": "https://startalkmedia.com/",
+        "authors": [
+          {
+            "name": "Neil",
+            "surnames": "deGrasse Tyson",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "The Infinite Monkey Cage",
+        "type": "other",
+        "URL": "https://www.bbc.co.uk/programmes/b00snr0w",
+        "summary": "Una visión del mundo a través de la ciencia",
+        "authors": [
+          {
+            "name": "Katy",
+            "surnames": "Brand - BBC",
+            "title": "Author"
+          }
+        ]
+      }
+    ],
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/gazquez/"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/irg1008"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "NubeBytes"
+        },
+        "roles": [
+          {
+            "name": "Full-stack Developer",
+            "startDate": "2022-01-01",
+            "challenges": [
+              {
+                "description": "Skills: .NET Framework"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Freelance"
+        },
+        "roles": [
+          {
+            "name": "Frontend Developer",
+            "startDate": "2018-11-01",
+            "finishDate": "2021-06-30"
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "Yoda AI",
+          "description": "Sistema compuesto de diferentes modelos de lenguaje diseñados para tareas relacionadas con ecommerce y aumento de ventas en distintos marketplaces de ventas",
+          "URL": "https://github.com/irg1008/Yoda-FITS-Demo",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/10/30/1c4e4224-42e6-4872-a5d2-1fc27ba6eb3f_68747470733a2f2f692e.png",
+            "alt": "68747470733a2f2f692e696d6775722e636f6d2f42446c716b62732e706e67.png"
+          }
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2022-02-01",
+            "competences": [
+              {
+                "name": ".NET",
+                "type": "technology"
+              },
+              {
+                "name": "Angular2+",
+                "type": "technology"
+              },
+              {
+                "name": "Azure",
+                "type": "technology"
+              },
+              {
+                "name": "Google Cloud",
+                "type": "technology"
+              },
+              {
+                "name": "PyTorch",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "SciPy",
+                "type": "technology"
+              },
+              {
+                "name": "Svelte",
+                "type": "technology"
+              },
+              {
+                "name": "Swagger",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Sign2Text",
+          "description": "Estudio y diseño desde cero de red neuronal para traducción de lenguaje de signos a texto.\n\nImplementada con PyTorch, esta red basada en transformers es capaz de traducir a tiempo real lenguaje de signos a texto.\n\nEl proyecto se compone de las iteraciones del modelo diseñadas así como de una API con la que integrar mediante un docker el modelo en cualquier cloud.\n\nA parte se incluye tambiñen un ejemplo de cliente escrito con Astro para consumir de la dicha API.",
+          "URL": "https://github.com/irg1008/Sign2Text-API",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/10/30/95927420-aab2-4837-bf78-e1a67c9052e6_logo.svg",
+            "alt": "logo.svg"
+          }
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2021-09-01",
+            "competences": [
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Fastapi",
+                "type": "technology"
+              },
+              {
+                "name": "Github Actions",
+                "type": "technology"
+              },
+              {
+                "name": "Google Cloud",
+                "type": "technology"
+              },
+              {
+                "name": "PyTorch",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Svelte",
+                "type": "technology"
+              }
+            ],
+            "finishDate": "2022-06-01"
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "EN",
+        "level": "Full professional proficiency"
+      },
+      {
+        "name": "ES",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": ".NET",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Angular2+",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Golang",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Google Cloud",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NextJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PyTorch",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Python",
+          "type": "technology"
+        }
+      }
+    ],
+    "studies": [
+      {
+        "studyType": "certification",
+        "degreeAchieved": false,
+        "name": "English C2 Proficiency Level - CEFR",
+        "startDate": "2022-04-01",
+        "institution": {
+          "name": "Altissia",
+          "description": "Título no oficial otorgado por Altissia con certificación en inglés de nivel C2",
+          "URL": "https://www.altissia.org/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/10/30/7b2b6ad5-8a3c-429e-95bc-2b22490497bb_2023-03-10.jpg",
+            "alt": "2023-03-10.jpg"
+          }
+        }
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Ingeniería Informática",
+        "startDate": "2018-09-01",
+        "institution": {
+          "name": "Universidad de Burgos",
+          "description": "Título de Ingeniería Industrial con mención especial en Computación. \n\n## TFG - Sign2Text\n\nTraducción de lenguaje de signos ALS a texto a tiempo real (de vídeo a texto)\n\nDiseñé y codifiqué mi propia estructura de redes neuronales  compuesta por transformers para la traducción de lenguaje de signos.\n\nImplementé una aplicación web y un servicio API para integración y testeo de la red neuronal.\n\nPor esto se me otorgó un 9 sobre 10 en la evaluación.",
+          "URL": "https://www.ubu.es/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/10/30/22ae8266-6948-4d8a-ba4f-e463487a0055_2327.png",
+            "alt": "2327.png"
+          }
+        },
+        "finishDate": "2022-06-01",
+        "linkedCompetences": [
+          {
+            "name": ".NET",
+            "type": "technology"
+          },
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "C++",
+            "type": "technology"
+          },
+          {
+            "name": "Flask",
+            "type": "technology"
+          },
+          {
+            "name": "JAVA",
+            "type": "technology"
+          },
+          {
+            "name": "PyTorch",
+            "type": "technology"
+          },
+          {
+            "name": "React",
+            "type": "technology"
+          },
+          {
+            "name": "SciPy",
+            "type": "technology"
+          }
+        ]
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Aprendizaje Continuo",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Atención al detalle",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Inteligencia emocional",
+          "type": "practice"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "URL": "https://www.linkedin.com/in/gazquez/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/irg1008",
+          "type": "github"
+        }
+      ],
+      "contactMails": [
+        "ivansudevlop@gmail.com"
+      ],
+      "phoneNumbers": [
+        {
+          "number": "616372077",
+          "countryCode": "+34"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "AWS",
+          "type": "technology"
+        },
+        {
+          "name": "Figma",
+          "type": "technology"
+        },
+        {
+          "name": "Golang",
+          "type": "technology"
+        },
+        {
+          "name": "NextJS",
+          "type": "technology"
+        },
+        {
+          "name": "PyTorch",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": ".htaccess",
+          "type": "technology"
+        },
+        {
+          "name": "JAVA",
+          "type": "technology"
+        },
+        {
+          "name": "PHP",
+          "type": "technology"
+        }
+      ],
+      "preferredRoles": [
+        "Backend Developer",
+        "DevOps & Infrastructure & SRE",
+        "Frontend Developer",
+        "Full-stack Developer",
+        "Machine Learning Engineer",
+        "Mobile Developer",
+        "Product Design (UI/UX)"
+      ]
+    },
+    "status": "searchingActively"
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": ".NET",
+        "type": "technology"
+      },
+      {
+        "name": "Angular2+",
+        "type": "technology"
+      },
+      {
+        "name": "Golang",
+        "type": "technology"
+      },
+      {
+        "name": "NextJS",
+        "type": "technology"
+      },
+      {
+        "name": "PyTorch",
+        "type": "technology"
+      }
+    ],
+    "desiredJobDescription": "Me gustaría encontrar un *equipo* compuesto por *grandes profesionales* de los que aprender y poder enseñar. Complementarnos y crear productos y herramientas de calidad y con pasión. Adoro mi trabajo y esto me permite poner todo de mi parte e intentar obtener el mejor resultado. Me encanta encontrar ese punto en el que se avanza rápido pero mantiendo la máxima calidad!",
+    "goodPractices": "Cuendo llegué al trabajo en el que me situó, no usabamos herramientas de testing ni tampoco herramientas de linting y formatting.\n\nPor otro lado la duplicidad de código a lo largo de los proyectos era inmanegable. Creamos librerías internas de componentes para solucionar esto.\n\nPudimos aplicar lo último en herramientas de CI/CD así como mejoramos cuantiosamente la organización interna de los repositorios mediante issues y kan boards\n\nEsto permitió mejorar la velocidad y calidad con las que lanzabamos los proyectos a producción.\n\nTodo esto me llevo personamente a leer libros y artículos sobre clean code y como mejorar la estructura de trabajo del equipo",
+    "projects": [
+      {
+        "name": "Sign2Text"
+      },
+      {
+        "name": "Yoda AI"
+      }
+    ],
+    "bookmarks": [
+      {
+        "name": "Startalk",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/10/30/3811c3e4-a1cc-4b63-9930-b0fceb1a0122_unnamed.jpg"
+      },
+      {
+        "name": "The Infinite Monkey Cage",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/10/30/2d2d4282-1553-4e93-b86d-fd2fc12f6bb2_logo_300x300.png"
+      }
+    ]
+  }
+}
