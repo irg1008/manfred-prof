@@ -214,6 +214,33 @@
           }
         ]
       }
+    ],
+    "publicArtifacts": [
+      {
+        "details": {
+          "name": "Lanzamiento de asistente inteligente + editor de imágenes dinámico para ecommerce",
+          "description": "He organizado, diseñado y ejecutado la creación de un asistente de feed de productos para ecommerce. Mediante el uso de IA y algoritmos de mejora he diseñado un asistente inteligente para empresas que quieren mejorar la accesibilidad de sus productos en distintos marketplaces. Junto a un editor de imágenes diseñado y pensado desde cero para la publicación de imágenes, se ha convertido en una herramienta usada de forma diaría para automatizar la exportación de productos y anuncios en Facebook, Google, y otras 20 plataformas.\n\nPara resolver este problema he tenido que rebuscar, luchat y aunar fuerzas de 4 tecnologías distintas:\n* ReactJS\n* Python\n* AngularJS\n* .NET\n\nHe tenido que levantar microservicios en Azure y GCP he integrar este producto con nuestra plataforma principal.\n\n¡Ha sido un gran reto multidisciplinar que me ha hecho aprender muchísimo!"
+        },
+        "type": "launch",
+        "publishingDate": "2024-01-01",
+        "tags": [
+          "design"
+        ],
+        "relatedCompetences": [
+          {
+            "name": ".NET",
+            "type": "technology"
+          },
+          {
+            "name": "Angular2+",
+            "type": "technology"
+          },
+          {
+            "name": "React",
+            "type": "technology"
+          }
+        ]
+      }
     ]
   },
   "knowledge": {
